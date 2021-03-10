@@ -1,11 +1,9 @@
-package com.chenyqx.jdbc.example.jdbc_util.jdbctemplate;
+package com.chenyqx.util.jdbc.jdbctemplate;
 
-import com.alibaba.druid.pool.DruidDataSource;
-import com.chenyqx.jdbc.example.jdbc_util.jdbc.JDBCUtils;
+import com.chenyqx.util.jdbc.jdbc.JDBCUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
-import org.springframework.transaction.TransactionManager;
 import org.springframework.transaction.support.TransactionTemplate;
 
 import javax.sql.DataSource;

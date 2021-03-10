@@ -1,4 +1,4 @@
-package com.chenyqx.jdbc.example.jdbc_util.jdbctemplate;
+package com.chenyqx.util.jdbc.jdbctemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

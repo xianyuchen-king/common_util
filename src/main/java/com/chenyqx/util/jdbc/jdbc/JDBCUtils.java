@@ -1,7 +1,6 @@
-package com.chenyqx.jdbc.example.jdbc_util.jdbc;
+package com.chenyqx.util.jdbc.jdbc;
 
 import com.alibaba.druid.pool.DruidDataSourceFactory;
-import lombok.extern.slf4j.Slf4j;
 
 import javax.sql.DataSource;
 import java.io.InputStream;

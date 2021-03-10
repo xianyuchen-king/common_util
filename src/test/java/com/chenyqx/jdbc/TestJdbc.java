@@ -1,17 +1,17 @@
-package com.chenyqx.jdbc.example.jdbc_util.jdbc;
+package com.chenyqx.jdbc;
+
+import com.chenyqx.util.jdbc.jdbc.JDBCUtils;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 
-/**
- * @ClassName : Main
- * @Description :
- * @Author : chenyqx
- * @Date: 2021-02-07 16:13
- */
-public class Main {
-    public static void main(String[] args) {
+@SpringBootTest
+public class TestJdbc {
+
+    @Test
+    void TestJdbc1(){
         String sql1 = "select * from iuap_cloud_basedoc.bd_country";
         String sql2 = "update bd_country set code = 'cyq' where name = '科威特'";
         try {

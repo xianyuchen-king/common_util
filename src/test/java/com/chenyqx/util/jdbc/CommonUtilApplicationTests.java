@@ -1,10 +1,10 @@
-package com.chenyqx.jdbc.example.jdbc_util;
+package com.chenyqx.util.jdbc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JdbcUtilApplicationTests {
+class CommonUtilApplicationTests {
 
     @Test
     void contextLoads() {
