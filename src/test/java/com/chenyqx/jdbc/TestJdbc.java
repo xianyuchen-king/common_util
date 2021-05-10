@@ -1,6 +1,7 @@
 package com.chenyqx.jdbc;
 
 import com.chenyqx.util.jdbc.jdbc.JDBCUtils;
+import com.chenyqx.util.redis.RedisReentrantLockUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -37,4 +38,6 @@ public class TestJdbc {
             e.printStackTrace();
         }
     }
+
+
 }
